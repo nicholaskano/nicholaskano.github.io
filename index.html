@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The photography portfolio of Nicholas Kano.">
+  <title>Nicholas Kano Photography</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="site-header">
+      <a class="wordmark" href="#work" aria-label="Nicholas Kano photography, home">NICHOLAS KANO<span>PHOTOGRAPHY</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="https://www.instagram.com/nicholaskano/" target="_blank" rel="noreferrer">Instagram</a>
+      </nav>
+    </header>
+
+    <section class="intro" id="work">
+      <h1><span>Photography by</span><span>Nicholas Kano</span></h1>
+    </section>
+
+    <section class="gallery" aria-label="Selected photography">
+      <button class="photo wide" data-index="0" aria-label="Open Close portrait"><img src="photos/03-portrait-close.jpg" alt="Close portrait" loading="eager"></button>
+      <button class="photo portrait" data-index="2" aria-label="Open Figure on playground"><img src="photos/04-playground.jpg" alt="Figure on playground" loading="eager"></button>
+      <button class="photo wide" data-index="3" aria-label="Open Organic texture study"><img src="photos/05-texture.jpg" alt="Organic texture study" loading="eager"></button>
+      <button class="photo portrait" data-index="4" aria-label="Open Motion study"><img src="photos/06-motion.jpg" alt="Motion study" loading="lazy"></button>
+      <button class="photo portrait" data-index="5" aria-label="Open Directional portrait"><img src="photos/07-arrow.jpg" alt="Directional portrait" loading="lazy"></button>
+      <button class="photo portrait" data-index="6" aria-label="Open Shopping cart abstraction"><img src="photos/08-cart.jpg" alt="Shopping cart abstraction" loading="lazy"></button>
+      <button class="photo wide" data-index="7" aria-label="Open City sculpture"><img src="photos/09-city.jpg" alt="City sculpture" loading="lazy"></button>
+      <button class="photo wide" data-index="8" aria-label="Open Reflections on water"><img src="photos/10-reflection.jpg" alt="Reflections on water" loading="lazy"></button>
+      <button class="photo wide" data-index="9" aria-label="Open Layered storefront"><img src="photos/11-overlap.jpg" alt="Layered storefront" loading="lazy"></button>
+      <button class="photo wide" data-index="10" aria-label="Open Street scene"><img src="photos/12-street.jpg" alt="Street scene" loading="lazy"></button>
+      <button class="photo wide" data-index="11" aria-label="Open Silhouette in grass"><img src="photos/13-silhouette.jpg" alt="Silhouette in grass" loading="lazy"></button>
+      <button class="photo wide" data-index="12" aria-label="Open Figure on bench"><img src="photos/14-bench.jpg" alt="Figure on bench" loading="lazy"></button>
+      <button class="photo wide" data-index="13" aria-label="Open Portrait with paper hat"><img src="photos/15-portrait-hat.jpg" alt="Portrait with paper hat" loading="lazy"></button>
+      <button class="photo wide" data-index="14" aria-label="Open Red detail study"><img src="photos/01-red-detail.jpg" alt="Red detail study" loading="lazy"></button>
+      <button class="photo portrait" data-index="15" aria-label="Open Figure at doorway"><img src="photos/16-doorway.jpg" alt="Figure at doorway" loading="lazy"></button>
+      <button class="photo wide" data-index="16" aria-label="Open Figure in field"><img src="photos/17-field.jpg" alt="Figure in field" loading="lazy"></button>
+      <button class="photo wide" data-index="17" aria-label="Open Figures overlooking the ocean"><img src="photos/18-ocean-overlook.jpg" alt="Figures overlooking the ocean" loading="lazy"></button>
+      <button class="photo wide" data-index="18" aria-label="Open Coastal trail"><img src="photos/19-coastal-trail.jpg" alt="People walking along a coastal trail" loading="lazy"></button>
+      <button class="photo wide" data-index="19" aria-label="Open Sunlit portrait"><img src="photos/20-sunlit-portrait.jpg" alt="Sunlit portrait on an earthen hillside" loading="lazy"></button>
+      <button class="photo portrait" data-index="20" aria-label="Open Architectural line study"><img src="photos/22-architecture.jpg" alt="Black-and-white architectural line study" loading="lazy"></button>
+    </section>
+
+    <section class="about" id="about">
+      <p class="eyebrow">About</p>
+      <div><h2>Behind the camera.</h2><p>My name is Nicholas Kano, and I have been doing film and digital photography for five years, off and on. My heart has always leaned toward the physicality involved in film photography, especially being in the darkroom and developing photos. I love photography, fashion, music, and essentially all creative mediums, which continue to inspire me throughout my path in life. This portfolio offers a glimpse into the diversity of photos I have taken over the years, including both film and digital photography.</p>
+      <a href="https://www.instagram.com/nicholaskano/" target="_blank" rel="noreferrer">@nicholaskano <span class="text-arrow" aria-hidden="true">&rarr;</span></a></div>
+    </section>
+
+    <footer><span>© <span id="year"></span> Nicholas Kano</span><a href="#work">Back to top ↑</a></footer>
+  </main>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+    <button class="close" aria-label="Close photo">Close</button>
+    <button class="previous" aria-label="Previous photo">←</button>
+    <img src="" alt="">
+    <button class="next" aria-label="Next photo">→</button>
+    <span class="counter"></span>
+  </div>
+</body>
+</html>
